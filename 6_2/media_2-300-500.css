@@ -1,0 +1,56 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    body {
+        margin: 0;
+        color: grey;
+        font-size: 2em;
+    }
+
+    div {
+        background-color: #b6b0b0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+    }
+
+    .Part_A {
+        height: 10vh;
+        margin-bottom: 0;
+    }
+    .Bottom{
+        background-color:white;
+        margin:0;
+        height:70vh;
+        flex-wrap:wrap;
+    }
+    .Bottom-Left{
+        height: 50vh;
+        width:100vw;
+        flex-wrap: wrap;
+        margin:0;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Part_B{
+        height:25vh;
+        width: 100vw;
+        margin: 40px;
+    }
+    .Part_C, .Part_D, .Part_E{
+        height: 10vh;
+        width: 20vw;
+        margin:0 20px 0 20px;
+    }
+    .Part_C{
+        margin-left:40px;
+    }
+    .Part_E{
+        margin-right:40px;
+    }
+    .Part_F{
+        height:20vh;
+        width:100vw;
+        margin: 40px;
+    }
+}

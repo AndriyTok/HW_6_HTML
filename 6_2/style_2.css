@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    color:grey;
+    font-size:2em;
+}
+div{
+    background-color: #b6b0b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:15px;
+}
+.Part_A{
+    height:25vh;
+    margin-bottom: 0;
+}
+.Bottom{
+    background-color: white;
+    margin:0;
+    height:70vh;
+ }
+.Bottom-Left{
+    height:70vh;
+    width: 70vw;
+    flex-wrap: wrap;
+    margin:0;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.Part_B{
+    height:32vh;
+    width:70vw;
+    margin: 12px 15px 10px 15px;
+}
+.Part_C,.Part_D,.Part_E{
+    height:32vh;
+    width:21.8vw;
+    margin:0;
+ }
+.Part_C{
+    margin-left:15px;
+}
+.Part_E{
+    margin-right:15px;
+}
+.Part_F{
+    height:66.5vh;
+    width: 30vw;
+    margin: 20px 15px 10px 5px;
+}
